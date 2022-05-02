@@ -13,8 +13,20 @@ padding: 20px;
 width: 300px;
 margin: 0 auto;
 margin-top: 40px;
-background: white;
-border-radius: 5px;}
+background: #ffebcd;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+h2 {
+color:#853503
+}
+
+p {
+text-align: center;
+}
 
 form {
 display: inline-block;
@@ -26,11 +38,11 @@ padding: 4px 15px 4px 5px;
 
 #button{
 display: inline-block;
-background-color:#fc999b;
+background-color:#853503;
 color:#ffffff;
 border-radius: 5px;
 text-align:center;
-margin-top:2px;
+margin-top:20px;
 padding: 5px 15px;
 }
 
@@ -40,7 +52,7 @@ opacity: .8;}
 
 ol {padding-left: 20px;}
 
-ol li {padding: 5px;color:#000;}
+ol li {padding: 10px;color:#000;}
 
 ol li:nth-child(even){background: #dfdfdf;}
 
