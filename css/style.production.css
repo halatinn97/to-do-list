@@ -8,82 +8,93 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
 
 body {
-font: normal normal 13px/16px "Open Sans", sans-serif;
-background: url(../img/background.jpg);
-background-size: cover;
-background-repeat:no-repeat;
-background-attachment: fixed;
+	font: normal normal 13px/16px "Open Sans", sans-serif;
+	background: url(../img/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
-.container{
-padding: 20px;
-width: 300px;
-margin: 0 auto;
-margin-top: 40px;
-background: #ffebcd;
-border-radius: 5px;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-orient: vertical;
--webkit-box-direction: normal;
-    -ms-flex-direction: column;
-        flex-direction: column;
--webkit-box-align: center;
-    -ms-flex-align: center;
-        align-items: center;
+.container {
+	padding: 20px;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background: #ffebcd;
+	border-radius: 5px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 h2 {
-color:#853503
+	color: #853503
 }
 
 p {
-text-align: center;
+	text-align: center;
 }
 
 form {
-display: inline-block;
+	display: inline-block;
 }
 
-input{
-padding: 4px 15px 4px 5px;
+input {
+	padding: 4px 15px 4px 5px;
 }
 
-#button{
-display: inline-block;
-background-color:#853503;
-color:#ffffff;
-border-radius: 5px;
-text-align:center;
-margin-top:20px;
-padding: 5px 15px;
+#button {
+	display: inline-block;
+	background-color: #853503;
+	color: #ffffff;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 20px;
+	padding: 5px 15px;
 }
 
-#button:hover{
-cursor: pointer;
-opacity: .8;}
+#button:hover {
+	cursor: pointer;
+	opacity: .8;
+}
 
-ol {padding-left: 20px;}
+ol {
+	padding-left: 20px;
+}
 
-ol li {padding: 10px;color:#000;}
+ol li {
+	padding: 10px;
+	color: #000;
+}
 
-ol li:nth-child(even){background: #dfdfdf;}
+ol li:nth-child(even) {
+	background: #dfdfdf;
+}
 
-.strike{text-decoration: line-through;}
+.strike {
+	text-decoration: line-through;
+}
 
-li:hover{
-  cursor: pointer;
- }
+li:hover {
+	cursor: pointer;
+}
 
 .delete {
 	display: none;
 }
 
-li > crossOutButton {
+li>crossOutButton {
 	background: none;
 	border: none;
 	float: right;
 	color: #025f70;
 	font-weight: 800;
+	margin-left: 5em;
 }
